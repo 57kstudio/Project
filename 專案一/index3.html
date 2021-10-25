@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style3.css">
+    <!-- ===== icon ===== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
+    <title>Document</title>
+</head>
+
+<body id="body-pd">
+    <header class="header" id="header">
+        <div class="header__toggle">
+            <i class="bx bx-menu" id="header-toggle"></i>
+        </div>
+
+        <div class="header__img">
+            <img src="assets/img/profile.jpg" alt="">
+        </div>
+    </header>
+
+    <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+            <div>
+                <a href="#" class="nav__logo">
+                    <i class="bx bx-layer nav__logo-icon"></i>
+                    <span class="nav__logo-name">Chan</span>
+                </a>
+                <div>
+
+                    <a href="index.html" class="nav__link active">
+                        <i class="bx bx-grid-alt nav__icon"></i>
+                        <span class="nav__name">主控台</span>
+                    </a>
+
+                    <a href="index4.html" class="nav__link">
+                        <i class="bx bx-user nav__icon"></i>
+                        <span class="nav__name">內部使用者</span>
+                    </a>
+
+                    <a href="index5.html" class="nav__link">
+                        <i class="bx bx-message-square-detail nav__icon"></i>
+                        <span class="nav__name">重要訊息</span>
+                    </a>
+
+                    <a href="index4.html" class="nav__link">
+                        <i class="bx bx-bookmark nav__icon"></i>
+                        <span class="nav__name">外部使用者</span>
+                    </a>
+
+                    <a href="index3.html" class="nav__link">
+                        <i class="bx bx-folder nav__icon"></i>
+                        <span class="nav__name">資料庫</span>
+                    </a>
+
+                    <!-- <a href="#" class="nav__link">
+                        <i class="bx bx-bar-chart-alt-2 nav__icon"></i>
+                        <span class="nav__name">相關分析</span>
+                    </a> -->
+
+                </div>
+            </div>
+
+            <a href="#" class="nav__link">
+                <i class="bx bx-log-out nav__icon"></i>
+                <span class="nav__name">登出</span>
+            </a>
+
+        </nav>
+    </div>
+
+    <!-- ===== panel ===== -->
+    <section class="panel top">
+        <h2>Posts</h2>
+        <ul>
+            <li><b>2458 </b>Published Posts</li>
+            <li><b>18 </b>Drafts.</li>
+            <li>Most popular posts:<b>This is a post title</b>.</li>
+        </ul>
+    </section>
+
+    <section class="panel">
+        <h2>Chart</h2>
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+            <li>Aliquam tincidunt mauris eu risus.</li>
+            <li>Vestibulum auctor dapibus neque.</li>
+        </ul>
+    </section>
+
+    <section class="panel important">
+        <h2>Write a post</h2>
+        <form action="#">
+
+            <div class="twothirds">
+                <label for="name">Text Input:</label>
+                <input type="text" name="name" id="name" placeholder="John Smith">
+                <label for="textarea">Textarea:</label>
+                <textarea name="textarea" id="textarea" cols="40" rows="8"></textarea>
+            </div>
+
+            <div class="onethird">
+                <legend>Radio Button Choice</legend>
+
+                <label for="radio-choice-1">
+                    <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1">Choice1
+                </label>
+                <label for="radio-choice-2">
+                    <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2">Choice1
+                </label>
+
+                <label for="select-choice">Select Dropdown Choice:</label>
+                <select name="select-choice" id="select-choice">
+                    <option value="Choice 1">Choice 1</option>
+                    <option value="Choice 2">Choice 2</option>
+                    <option value="Choice 3">Choice 3</option>
+                </select>
+
+                <div>
+                    <label for="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox">Checkbox
+                    </label>
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+
+            </div>
+        </form>
+    </section>
+
+    <section class="panel">
+        <h2>feedback</h2>
+        <div class="feedback">This is neutral feedback Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+            praesentium. Libero perspiciatis quis aliquid iste quam dignissimos, accusamus temporibus ullam voluptatum,
+            tempora pariatur, similique molestias blanditiis at sunt earum neque.</div>
+        <div class="feedback error">This is warning feedback
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+                <li>Vestibulum auctor dapibus neque.</li>
+            </ul>
+        </div>
+        <div class="feedback success">This is positive feedback</div>
+
+    </section>
+    <section class="panel ">
+        <h2>Table</h2>
+        <table>
+            <tr>
+                <th>Username</th>
+                <th>Posts</th>
+                <th>comments</th>
+                <th>date</th>
+            </tr>
+            <tr>
+                <td>Pete</td>
+                <td>4</td>
+                <td>7</td>
+                <td>Oct 10, 2015</td>
+
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>5769</td>
+                <td>2517</td>
+                <td>Jan 1, 2014</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>5769</td>
+                <td>2517</td>
+                <td>Jan 1, 2014</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>5769</td>
+                <td>2517</td>
+                <td>Jan 1, 2014</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>5769</td>
+                <td>2517</td>
+                <td>Jan 1, 2014</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>5769</td>
+                <td>2517</td>
+                <td>Jan 1, 2014</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>5769</td>
+                <td>2517</td>
+                <td>Jan 1, 2014</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>5769</td>
+                <td>2517</td>
+                <td>Jan 1, 2014</td>
+            </tr>
+
+        </table>
+    </section>
+
+
+    <!-- ===== JAVA ===== -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ===== Scrollreveal ===== -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+</body>
+
+</html>
